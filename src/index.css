@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom slider styles */
+.slider {
+  background-image: linear-gradient(to right, #EAB308, #DC2626);
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+  border: 2px solid #EAB308;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.slider::-moz-range-thumb {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+  border: 2px solid #EAB308;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 640px) {
+  .slider::-webkit-slider-thumb {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .slider::-moz-range-thumb {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+/* Smooth animations */
+* {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .grid-cols-7 {
+    gap: 1px;
+  }
+  
+  .aspect-square {
+    font-size: 0.75rem;
+    min-height: 32px;
+  }
+  
+  /* Improve touch targets */
+  button, input, textarea, select {
+    min-height: 44px;
+  }
+  
+  /* Better spacing for mobile */
+  .space-y-6 > * + * {
+    margin-top: 1rem;
+  }
+  
+  .space-y-8 > * + * {
+    margin-top: 1.5rem;
+  }
+}
+
+/* Responsive text scaling */
+@media (max-width: 640px) {
+  .text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+/* Safe area for mobile devices */
+@supports (padding: max(0px)) {
+  .pb-20 {
+    padding-bottom: max(5rem, env(safe-area-inset-bottom));
+  }
+}
+
+/* Focus styles for accessibility */
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #EAB308;
+  outline-offset: 2px;
+}
+
+/* Loading states */
+.loading {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Improved mobile navigation */
+@media (max-width: 1024px) {
+  .fixed.bottom-0 {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
