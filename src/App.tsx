@@ -365,11 +365,11 @@ function App() {
         color: 'from-red-500 to-red-600'
       },
       {
-        title: 'Mental Health & Confidence',
-        description: 'Building confidence and managing performance anxiety',
-        category: 'Psychology',
-        pdfUrl: '/pdfs/mental-health-confidence.pdf',
-        color: 'from-purple-500 to-purple-600'
+        title: 'The Secret of Lesbians',
+        description: 'How two fingers unlock intense female orgasms',
+        category: 'Pleasure Secrets',
+        pdfUrl: '/pdfs/advanced-techniques.pdf',
+        color: 'from-indigo-500 to-indigo-600'
       },
       {
         title: 'Lifestyle Optimization',
@@ -379,11 +379,11 @@ function App() {
         color: 'from-yellow-500 to-yellow-600'
       },
       {
-        title: 'Advanced Techniques',
-        description: 'Advanced strategies for maximum results',
-        category: 'Advanced',
-        pdfUrl: '/pdfs/advanced-techniques.pdf',
-        color: 'from-indigo-500 to-indigo-600'
+        title: 'Mental Health & Confidence',
+        description: 'Building confidence and managing performance anxiety',
+        category: 'Psychology',
+        pdfUrl: '/pdfs/mental-health-confidence.pdf',
+        color: 'from-purple-500 to-purple-600'
       }
     ];
 
