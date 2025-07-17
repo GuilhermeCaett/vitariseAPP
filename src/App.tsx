@@ -351,25 +351,25 @@ function App() {
         color: 'from-blue-500 to-blue-600'
       },
       {
-        title: 'How to Last 60 Minutes in Bed',
+        title: 'Iron-Man Manual 60 Minutes Without Cumming',
         description: 'Advanced techniques for extended performance',
         category: 'Performance',
-        pdfUrl: '/pdfs/how-to-last-60-minutes.pdf',
+        pdfUrl: '/pdfs/Iron-Man-Manual-60-Minutes-Without-Cumming.pdf',
         color: 'from-green-500 to-green-600'
       },
       {
-        title: 'Giant Monster Boner',
+        title: 'Horse Mode',
         description: 'Ultimate guide to maximum hardness and size',
         category: 'Enhancement',
-        pdfUrl: '/pdfs/giant-monster-boner.pdf',
+        pdfUrl: '/pdfs/Horse-Mode.pdf',
         color: 'from-red-500 to-red-600'
       },
       {
         title: 'The Secret of Lesbians',
         description: 'How two fingers unlock intense female orgasms',
         category: 'Pleasure Secrets',
-        pdfUrl: '/pdfs/advanced-techniques.pdf',
-        color: 'from-indigo-500 to-indigo-600'
+        pdfUrl: '/pdfs/The-Secret-of-Lesbians-How-to-Make-Her-Come-with-Two-Fingers.pdf',
+        color: 'from-purple-500 to-indigo-600'
       },
       {
         title: 'Lifestyle Optimization',
@@ -383,7 +383,7 @@ function App() {
         description: 'Building confidence and managing performance anxiety',
         category: 'Psychology',
         pdfUrl: '/pdfs/mental-health-confidence.pdf',
-        color: 'from-purple-500 to-purple-600'
+        color: 'from-orange-500 to-indigo-600'
       }
     ];
 
